@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_marginHorizontal="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/AnswerDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="0.7"
+        android:textSize="45sp"
+        android:padding="10dp"
+        android:text=""
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="7"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="9"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="/"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onOperator"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="5"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="6"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="*"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onOperator"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onOperator"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="."
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onDecimal"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onNumberClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="clr"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onClear"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="5dp"
+            android:onClick="onOperator"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/teal_200"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="="
+            android:onClick="onEqual"/>
+    </LinearLayout>
+
+</LinearLayout>
